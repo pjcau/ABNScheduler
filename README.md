@@ -1,6 +1,6 @@
 # ABNScheduler 
 [![Build Status](https://travis-ci.org/ahmedabadie/ABNScheduler.svg?branch=master)](https://travis-ci.org/ahmedabadie/ABNScheduler)
-[![Swift 2.2](https://img.shields.io/badge/Swift-2.2-orange.svg?style=flat)](https://swift.org)
+[![Swift 3](https://img.shields.io/badge/Swift-3-orange.svg?style=flat)](https://swift.org)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/ahmedabadie/ABNScheduler/blob/master/LICENSE)
 
 
