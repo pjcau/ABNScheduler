@@ -1,4 +1,4 @@
 language: objective-c
 osx_image:  xcode9.0
 script:
-  - xctool test -project ABNSDemo.xcodeproj -scheme ABNSDemo -sdk iphonesimulator9.3
+  - xctool  -project ABNSDemo.xcodeproj -scheme ABNSDemo build test -sdk iphonesimulator9.3
