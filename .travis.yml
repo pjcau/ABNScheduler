@@ -1,4 +1,4 @@
 language: objective-c
 osx_image:  xcode9.0
 script:
-  - xctool test -project ABNScheduler.xcodeproj -scheme ABNSchedulerTest -sdk iphonesimulator
+  - xctool test -project ABNSDemo.xcodeproj -scheme ABNSDemoTest -sdk iphonesimulator
