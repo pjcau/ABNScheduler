@@ -1,6 +1,19 @@
-language: objective-c
-osx_image: xcode9.0
-xcode_project: ABNSDemo.xcodeproj
-xcode_scheme: ABNSDemo
-xcode_sdk: iphonesimulator9.3
-
+osx_image: xcode9.3
+language: generic
+matrix:
+  include:
+    - os: osx
+      osx_image: xcode9
+      env:
+        - PLATFORM=macos
+        - XCODE_ACTION="build-for-testing test-without-building"
+    - os: osx
+      env:
+        - PLATFORM=ios
+        - SWIFT_VERSION=4.0-DEVELOPMENT-SNAPSHOT-2017-09-04-a
+        - XCODE_ACTION="build-for-testing test-without-building"
+   
+install:
+  - if [[ "$TRAVIS_OS_NAME" == "osx"   ]]; then ./script/travis-install-macos; fi
+script:
+  - if [[ "$TRAVIS_OS_NAME" == "osx"   ]]; then ./script/travis-script-macos; fi
