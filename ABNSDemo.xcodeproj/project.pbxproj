@@ -159,6 +159,7 @@
 					};
 					B0A801B01C98878600135DDA = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = DNG3JLER88;
 						LastSwiftMigration = 0900;
 						TestTargetID = B0A8019A1C98878600135DDA;
 					};
@@ -370,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DNG3JLER88;
 				INFOPLIST_FILE = ABNSDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedabadie.ABNSDemoTests;
@@ -384,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DNG3JLER88;
 				INFOPLIST_FILE = ABNSDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedabadie.ABNSDemoTests;
