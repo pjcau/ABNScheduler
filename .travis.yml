@@ -1,19 +1,4 @@
-osx_image: xcode9.3
-language: generic
-matrix:
-  include:
-    - os: osx
-      osx_image: xcode9
-      env:
-        - PLATFORM=macos
-        - XCODE_ACTION="build-for-testing test-without-building"
-    - os: osx
-      env:
-        - PLATFORM=ios
-        - SWIFT_VERSION=4.0-DEVELOPMENT-SNAPSHOT-2017-09-04-a
-        - XCODE_ACTION="build-for-testing test-without-building"
-   
-install:
-  - if [[ "$TRAVIS_OS_NAME" == "osx"   ]]; then ./script/travis-install-macos; fi
+language: objective-c
+osx_image:  xcode9.0
 script:
-  - if [[ "$TRAVIS_OS_NAME" == "osx"   ]]; then ./script/travis-script-macos; fi
+  - xctool test -project ABNScheduler.xcodeproj -scheme ABNSchedulerTest -sdk iphonesimulator
