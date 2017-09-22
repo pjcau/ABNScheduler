@@ -11,6 +11,8 @@
 		5FE405D41F752DF2005DCEAE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A801A21C98878600135DDA /* SecondViewController.swift */; };
 		5FE405D61F752DFD005DCEAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A801C81C98906300135DDA /* Main.storyboard */; };
 		5FE405D71F752E04005DCEAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A801CB1C98906D00135DDA /* LaunchScreen.storyboard */; };
+		5FE405DB1F753A00005DCEAE /* ABNScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE405DA1F752E51005DCEAE /* ABNScheduler.swift */; };
+		5FE405DC1F753A00005DCEAE /* ABNScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE405DA1F752E51005DCEAE /* ABNScheduler.swift */; };
 		B0A8019F1C98878600135DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A8019E1C98878600135DDA /* AppDelegate.swift */; };
 		B0A801A11C98878600135DDA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A801A01C98878600135DDA /* FirstViewController.swift */; };
 		B0A801A31C98878600135DDA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A801A21C98878600135DDA /* SecondViewController.swift */; };
@@ -65,18 +67,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5FE405D81F752E3D005DCEAE /* ABNScheduler */ = {
+		5FE405D81F752E3D005DCEAE /* PJScheduler */ = {
 			isa = PBXGroup;
 			children = (
 				5FE405DA1F752E51005DCEAE /* ABNScheduler.swift */,
 			);
-			path = ABNScheduler;
+			path = PJScheduler;
 			sourceTree = "<group>";
 		};
 		B0A801921C98878600135DDA = {
 			isa = PBXGroup;
 			children = (
-				5FE405D81F752E3D005DCEAE /* ABNScheduler */,
+				5FE405D81F752E3D005DCEAE /* PJScheduler */,
 				B0A8019D1C98878600135DDA /* ABNSDemo */,
 				B0A801B41C98878600135DDA /* ABNSDemoTests */,
 				B0A8019C1C98878600135DDA /* Products */,
@@ -161,7 +163,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Ahmed Abdul Badie";
 				TargetAttributes = {
 					B0A8019A1C98878600135DDA = {
@@ -224,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A801A31C98878600135DDA /* SecondViewController.swift in Sources */,
+				5FE405DB1F753A00005DCEAE /* ABNScheduler.swift in Sources */,
 				B0A8019F1C98878600135DDA /* AppDelegate.swift in Sources */,
 				B0A801A11C98878600135DDA /* FirstViewController.swift in Sources */,
 			);
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FE405D41F752DF2005DCEAE /* SecondViewController.swift in Sources */,
+				5FE405DC1F753A00005DCEAE /* ABNScheduler.swift in Sources */,
 				5FE405D31F752DF2005DCEAE /* FirstViewController.swift in Sources */,
 				B0A801B61C98878600135DDA /* ABNSDemoTests.swift in Sources */,
 				B0A801C31C98881F00135DDA /* ABNSchedulerTests.swift in Sources */,
@@ -278,14 +282,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -324,14 +334,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
