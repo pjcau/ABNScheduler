@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B01A7CC61C9898B800FF94F3 /* ABNScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A7CC51C9898B800FF94F3 /* ABNScheduler.swift */; };
+		5FE405D31F752DF2005DCEAE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A801A01C98878600135DDA /* FirstViewController.swift */; };
+		5FE405D41F752DF2005DCEAE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A801A21C98878600135DDA /* SecondViewController.swift */; };
+		5FE405D61F752DFD005DCEAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A801C81C98906300135DDA /* Main.storyboard */; };
+		5FE405D71F752E04005DCEAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A801CB1C98906D00135DDA /* LaunchScreen.storyboard */; };
 		B0A8019F1C98878600135DDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A8019E1C98878600135DDA /* AppDelegate.swift */; };
 		B0A801A11C98878600135DDA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A801A01C98878600135DDA /* FirstViewController.swift */; };
 		B0A801A31C98878600135DDA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A801A21C98878600135DDA /* SecondViewController.swift */; };
@@ -29,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B01A7CC51C9898B800FF94F3 /* ABNScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABNScheduler.swift; sourceTree = SOURCE_ROOT; };
+		5FE405DA1F752E51005DCEAE /* ABNScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABNScheduler.swift; sourceTree = "<group>"; };
 		B0A8019B1C98878600135DDA /* ABNSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABNSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A8019E1C98878600135DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0A801A01C98878600135DDA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -62,9 +65,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FE405D81F752E3D005DCEAE /* ABNScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				5FE405DA1F752E51005DCEAE /* ABNScheduler.swift */,
+			);
+			path = ABNScheduler;
+			sourceTree = "<group>";
+		};
 		B0A801921C98878600135DDA = {
 			isa = PBXGroup;
 			children = (
+				5FE405D81F752E3D005DCEAE /* ABNScheduler */,
 				B0A8019D1C98878600135DDA /* ABNSDemo */,
 				B0A801B41C98878600135DDA /* ABNSDemoTests */,
 				B0A8019C1C98878600135DDA /* Products */,
@@ -86,7 +98,6 @@
 				B0A8019E1C98878600135DDA /* AppDelegate.swift */,
 				B0A801A01C98878600135DDA /* FirstViewController.swift */,
 				B0A801A21C98878600135DDA /* SecondViewController.swift */,
-				B01A7CC51C9898B800FF94F3 /* ABNScheduler.swift */,
 				B0A801C81C98906300135DDA /* Main.storyboard */,
 				B0A801A71C98878600135DDA /* Assets.xcassets */,
 				B0A801CB1C98906D00135DDA /* LaunchScreen.storyboard */,
@@ -200,6 +211,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE405D61F752DFD005DCEAE /* Main.storyboard in Resources */,
+				5FE405D71F752E04005DCEAE /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +224,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A801A31C98878600135DDA /* SecondViewController.swift in Sources */,
-				B01A7CC61C9898B800FF94F3 /* ABNScheduler.swift in Sources */,
 				B0A8019F1C98878600135DDA /* AppDelegate.swift in Sources */,
 				B0A801A11C98878600135DDA /* FirstViewController.swift in Sources */,
 			);
@@ -221,6 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE405D41F752DF2005DCEAE /* SecondViewController.swift in Sources */,
+				5FE405D31F752DF2005DCEAE /* FirstViewController.swift in Sources */,
 				B0A801B61C98878600135DDA /* ABNSDemoTests.swift in Sources */,
 				B0A801C31C98881F00135DDA /* ABNSchedulerTests.swift in Sources */,
 			);
