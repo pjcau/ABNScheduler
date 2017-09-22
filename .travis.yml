@@ -1,4 +1,4 @@
-language: generic
+language: swift
 osx_image: xcode9.0
 xcode_project: ABNSDemo.xcodeproj
 xcode_scheme: ABNSDemo
@@ -7,5 +7,5 @@ install:
   - eval "$(curl -sL https://gist.githubusercontent.com/kylef/5c0475ff02b7c7671d2a/raw/9f442512a46d7a2af7b850d65a7e9bd31edfb09b/swiftenv-install.sh)"
 script:
   - swift build
- env:
+env:
   - SWIFT_VERSION=swift-4.0-RELEASE
