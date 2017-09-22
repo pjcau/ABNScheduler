@@ -3,4 +3,4 @@ osx_image: xcode9.0
 xcode_project: ABNSDemo.xcodeproj
 xcode_scheme: ABNSDemo
 script:
-  xcodebuild test -scheme ABNSDemo -destination 'id=E35A39A9-0197-4428-A846-D75DDE6F0E98'
+  xcodebuild test -scheme ABNSDemo -destination 'id=7CE1CE63-4A8C-42DF-A593-D42C6DCCE3DD'
