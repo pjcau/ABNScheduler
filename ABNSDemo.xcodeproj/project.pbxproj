@@ -155,6 +155,7 @@
 				TargetAttributes = {
 					B0A8019A1C98878600135DDA = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = DNG3JLER88;
 						LastSwiftMigration = 0900;
 					};
 					B0A801B01C98878600135DDA = {
@@ -345,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DNG3JLER88;
 				INFOPLIST_FILE = ABNSDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedabadie.ABNSDemo;
@@ -358,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DNG3JLER88;
 				INFOPLIST_FILE = ABNSDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahmedabadie.ABNSDemo;
