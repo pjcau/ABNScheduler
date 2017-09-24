@@ -1,4 +1,4 @@
 language: objective-c
 osx_image:  xcode9.0
 script:
-  - xctool  -project ABNSDemo.xcodeproj -scheme ABNSDemo build test -sdk iphonesimulator9.3
+  - xcodebuild -project ABNSDemo.xcodeproj -target ABNSDemoTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
