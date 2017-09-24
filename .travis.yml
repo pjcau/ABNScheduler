@@ -1,4 +1,4 @@
 language: objective-c
 osx_image:  xcode9.0
 script:
-  - xcodebuild test -project ABNSDemo.xcodeproj -scheme ABNSDemoTests -sdk iphonesimulator9.3
+  - xcodebuild -project ABNSDemo.xcodeproj -target ABNSDemoTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
