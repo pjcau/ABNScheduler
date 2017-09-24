@@ -1,4 +1,4 @@
 language: objective-c
 osx_image:  xcode8.3
 script:
-  - xcodebuild -project ABNSDemo.xcodeproj -target ABNSDemoTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xcodebuild -project ABNSDemo.xcodeproj -target ABNSDemoTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
