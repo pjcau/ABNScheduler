@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F11D8CB1F782D1500A43DF5 /* ABNQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F11D8CA1F782D1500A43DF5 /* ABNQueue.swift */; };
+		5F11D8CC1F782D1500A43DF5 /* ABNQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F11D8CA1F782D1500A43DF5 /* ABNQueue.swift */; };
+		5F11D8CE1F782DD300A43DF5 /* ABNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F11D8CD1F782DD300A43DF5 /* ABNotification.swift */; };
+		5F11D8CF1F782DD300A43DF5 /* ABNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F11D8CD1F782DD300A43DF5 /* ABNotification.swift */; };
 		5FE405D31F752DF2005DCEAE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A801A01C98878600135DDA /* FirstViewController.swift */; };
 		5FE405D41F752DF2005DCEAE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A801A21C98878600135DDA /* SecondViewController.swift */; };
 		5FE405D61F752DFD005DCEAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A801C81C98906300135DDA /* Main.storyboard */; };
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F11D8CA1F782D1500A43DF5 /* ABNQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABNQueue.swift; sourceTree = "<group>"; };
+		5F11D8CD1F782DD300A43DF5 /* ABNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABNotification.swift; sourceTree = "<group>"; };
 		5FE405DA1F752E51005DCEAE /* ABNScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABNScheduler.swift; sourceTree = "<group>"; };
 		B0A8019B1C98878600135DDA /* ABNSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABNSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A8019E1C98878600135DDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				5FE405DA1F752E51005DCEAE /* ABNScheduler.swift */,
+				5F11D8CA1F782D1500A43DF5 /* ABNQueue.swift */,
+				5F11D8CD1F782DD300A43DF5 /* ABNotification.swift */,
 			);
 			path = PJScheduler;
 			sourceTree = "<group>";
@@ -226,7 +234,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A801A31C98878600135DDA /* SecondViewController.swift in Sources */,
+				5F11D8CB1F782D1500A43DF5 /* ABNQueue.swift in Sources */,
 				5FE405DB1F753A00005DCEAE /* ABNScheduler.swift in Sources */,
+				5F11D8CE1F782DD300A43DF5 /* ABNotification.swift in Sources */,
 				B0A8019F1C98878600135DDA /* AppDelegate.swift in Sources */,
 				B0A801A11C98878600135DDA /* FirstViewController.swift in Sources */,
 			);
@@ -237,8 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FE405D41F752DF2005DCEAE /* SecondViewController.swift in Sources */,
+				5F11D8CC1F782D1500A43DF5 /* ABNQueue.swift in Sources */,
 				5FE405DC1F753A00005DCEAE /* ABNScheduler.swift in Sources */,
 				5FE405D31F752DF2005DCEAE /* FirstViewController.swift in Sources */,
+				5F11D8CF1F782DD300A43DF5 /* ABNotification.swift in Sources */,
 				B0A801B61C98878600135DDA /* ABNSDemoTests.swift in Sources */,
 				B0A801C31C98881F00135DDA /* ABNSchedulerTests.swift in Sources */,
 			);
