@@ -1,5 +1,7 @@
 language: objective-c
 osx_image: xcode9
+ notifications:
+    slack: cynnyteamios:n0K2wlqLzX6qwoHS1aNSgwff
 branches:
   only:
     - master
