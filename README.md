@@ -4,7 +4,8 @@
 [![Version](https://img.shields.io/cocoapods/v/PJScheduler.svg?style=flat)](http://cocoadocs.org/docsets/PJScheduler)
 [![License](https://img.shields.io/cocoapods/l/PJScheduler.svg?style=flat)](http://cocoadocs.org/docsets/PJScheduler) 
 [![Platform](https://img.shields.io/cocoapods/p/PJScheduler.svg?style=flat)](http://cocoadocs.org/docsets/PJScheduler)
-
+[![Download](https://img.shields.io/cocoapods/dt/PJScheduler.svg?style=flat)](http://cocoadocs.org/docsets/PJScheduler)
+[![Release](https://img.shields.io/github/release/pjcau/PJScheduler.svg?style=flat)](http://cocoadocs.org/docsets/PJScheduler)
 
 
 
