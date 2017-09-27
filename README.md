@@ -1,7 +1,11 @@
 # ABNScheduler 
-[![Build Status](https://travis-ci.org/ahmedabadie/ABNScheduler.svg?branch=master)](https://travis-ci.org/ahmedabadie/ABNScheduler)
-[![Swift 3](https://img.shields.io/badge/Swift-3-orange.svg?style=flat)](https://swift.org)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/ahmedabadie/ABNScheduler/blob/master/LICENSE)
+[![Swift 4](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](https://swift.org)
+[![Build Status](https://travis-ci.org/pjcau/LocalNotifications_Over_iOS10.svg?branch=master)](https://travis-ci.org/pjcau/LocalNotifications_Over_iOS10)
+[![Version](https://img.shields.io/cocoapods/v/LocalNotifications_Over_iOS10.svg?style=flat)](http://cocoadocs.org/docsets/LocalNotifications_Over_iOS10)
+[![License](https://img.shields.io/cocoapods/l/LocalNotifications_Over_iOS10.svg?style=flat)](http://cocoadocs.org/docsets/LocalNotifications_Over_iOS10) 
+[![Platform](https://img.shields.io/cocoapods/p/LocalNotifications_Over_iOS10.svg?style=flat)](http://cocoadocs.org/docsets/LocalNotifications_Over_iOS10)
+
+
 
 
 ABNScheduler is a local notifications scheduler for iOS written in Swift.
