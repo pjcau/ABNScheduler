@@ -1,9 +1,9 @@
 # ABNScheduler 
 [![Swift 4](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](https://swift.org)
-[![Build Status](https://travis-ci.org/pjcau/LocalNotifications_Over_iOS10.svg?branch=master)](https://travis-ci.org/pjcau/LocalNotifications_Over_iOS10)
-[![Version](https://img.shields.io/cocoapods/v/LocalNotifications_Over_iOS10.svg?style=flat)](http://cocoadocs.org/docsets/LocalNotifications_Over_iOS10)
-[![License](https://img.shields.io/cocoapods/l/LocalNotifications_Over_iOS10.svg?style=flat)](http://cocoadocs.org/docsets/LocalNotifications_Over_iOS10) 
-[![Platform](https://img.shields.io/cocoapods/p/LocalNotifications_Over_iOS10.svg?style=flat)](http://cocoadocs.org/docsets/LocalNotifications_Over_iOS10)
+[![Build Status](https://travis-ci.org/pjcau/PJScheduler.svg?branch=master)](https://travis-ci.org/pjcau/PJScheduler)
+[![Version](https://img.shields.io/cocoapods/v/PJScheduler.svg?style=flat)](http://cocoadocs.org/docsets/PJScheduler)
+[![License](https://img.shields.io/cocoapods/l/PJScheduler.svg?style=flat)](http://cocoadocs.org/docsets/PJScheduler) 
+[![Platform](https://img.shields.io/cocoapods/p/PJScheduler.svg?style=flat)](http://cocoadocs.org/docsets/PJScheduler)
 
 
 
